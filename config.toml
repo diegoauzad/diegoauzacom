@@ -1,3 +1,71 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://diegoauza.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+dateformat = "Jan 2, 2006"
+
+builddrafts = false
+canonifyurls = false
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Diego Auza Derpic"
+title = "Diego Auza | Software Engineer | Entrepreneur"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Diego Auza Derpic"
+intro = "Software Engineer | Tech Entrepreneur"
+description = "Now @ADMatic. Previously @BNB, and @EATHappyBo. <br/> \"Yeah! I like wearing sunglasses!\""
+authorimage = "headshot.jpeg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Diego Auza Derpic - Software Engineer | Tech Entrepreneur"
+keywords = "diego,auza,derpic,ios,android,mobile,developer,bolivia"
+
+## Social Accounts
+[params.social]
+github = "diegoauzad"
+linkedin = "diegoauzad"
+twitter = "diegoauzad"
+email = "diego.auza.d@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2022. Diego Auza Derpic. [All Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+name = "projects"
+weight = 100
+identifier = "projects"
+url = "/projects/"
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "/about/"
+[[menu.main]]
+name = "contact"
+identifier = "contact"
+weight = 300
+url = "/contact/"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
