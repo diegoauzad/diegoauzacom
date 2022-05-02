@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Diego Auza Derpic"
 intro = "Software Engineer | Tech Entrepreneur"
-description = "Now @ADMatic. Previously @BNB, and @EATHappyBo. <br/> \"Yeah! I like wearing sunglasses!\""
+description = "Now @ADMatic. Previously @BNB, and @EATHappyBo. <br/> iOS • Android • Ruby on Rails"
 authorimage = "headshot.jpeg"
 dateformat = "Jan 2, 2006"
 
@@ -59,11 +59,6 @@ name = "about"
 identifier = "about"
 weight = 200
 url = "/about/"
-[[menu.main]]
-name = "contact"
-identifier = "contact"
-weight = 300
-url = "/contact/"
 
 [markup]
 [markup.goldmark]
