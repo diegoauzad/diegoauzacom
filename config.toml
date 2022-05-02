@@ -19,6 +19,9 @@ theme = "hugo-goa"
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
+[permalinks]
+  posts = "projects/:title"
+
 ## Site Settings
 [params]
 author = "Diego Auza Derpic"
