@@ -19,8 +19,8 @@ theme = "hugo-goa"
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
-[permalinks]
-  posts = "projects/:title"
+# [permalinks]
+#   posts = "projects/:title"
 
 ## Site Settings
 [params]
